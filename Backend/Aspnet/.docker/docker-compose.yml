@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  aspnet:
+    build:
+      context: ../
+      dockerfile: .docker/Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=aspnetdb;Username=user;Password=password
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
