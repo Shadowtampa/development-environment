@@ -7,16 +7,15 @@ Este projeto oferece um ambiente de desenvolvimento completo e pronto para uso (
 Servir como modelo base para ser forkeado em projetos futuros, proporcionando um ambiente de desenvolvimento configurado e padronizado, economizando tempo de setup em novos projetos.
 
 ## 🛠 Tecnologias Disponíveis
-
-- 🔷 **Laravel** - Framework PHP
+- Frontend: 
 - ⚛️ **React** - Biblioteca JavaScript para interfaces
+
+- Backend: 
 - 🦁 **NestJS** - Framework Node.js para backend
-- 🅰️ **Angular** - Framework JavaScript para SPAs
-- 🐬 **MySQL** - Banco de dados relacional
+- Aspnet
+
+- Databases
 - 🐘 **PostgreSQL** - Banco de dados relacional avançado
-- 🍃 **MongoDB** - Banco de dados NoSQL orientado a documentos
-- 📦 **Redis** - Banco de dados em memória
-- 🔄 **Nginx** - Servidor web e proxy reverso
 
 ## 📋 Portas dos Serviços
 

@@ -1,0 +1,5 @@
+node_modules/
+Backend/Aspnet/obj/
+Backend/Aspnet/bin/
+Database/*/data
+*.env
